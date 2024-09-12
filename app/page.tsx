@@ -18,7 +18,7 @@ export default function Home() {
 						href='/'
 						rel='noopener noreferrer'
 					>
-						Войти в систему
+						Войти
 					</a>
 				</div>
 			</main>
