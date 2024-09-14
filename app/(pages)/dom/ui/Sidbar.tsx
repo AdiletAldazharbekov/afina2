@@ -6,9 +6,9 @@ import { PowerIcon } from '@heroicons/react/24/outline'
 export default function Sidebar() {
 	return (
 		<div className='flex h-full flex-col px-3 py-0 pb-4 md:px-1'>
-			<div className='my-1 flex h-20 w-full items-center justify-center rounded-md bg-sky-900 text-white md:h-20'>
+			{/* <div className='my-1 flex h-20 w-full items-center justify-center rounded-md bg-sky-900 text-white md:h-20'>
 				Logo
-			</div>
+			</div> */}
 
 			<div className='flex grow flex-row justify-between space-x-2 md:flex-col md:gap-1 md:space-x-0'>
 				<NavLinks />
