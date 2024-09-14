@@ -1,5 +1,6 @@
 import NavLinks from './Nav-links'
 import { PowerIcon } from '@heroicons/react/24/outline'
+
 // import { revalidatePath } from 'next/cache';
 // import { redirect } from 'next/navigation';
 
@@ -22,12 +23,22 @@ export default function Sidebar() {
 						// cookies().delete('AUTH_TOKEN');
 					}}
 				>
-					<button className='flex h-[48px] w-full grow items-center justify-center gap-2 rounded-md bg-inherit p-3 text-sm font-medium hover:text-blue-300 md:flex-none md:justify-start md:p-2 md:px-3'>
+					<a
+						href='/'
+						className='flex h-[48px] grow items-center justify-center gap-3 rounded-md bg-sky-900 p-3 text-sm font-medium hover:text-sky-400 md:flex-none md:justify-start md:p-2 md:px-3'
+					>
 						<PowerIcon className='w-6' />
+						<p className='hidden md:block'>Exit</p>
+					</a>
+
+					{/* <button className='flex h-[48px] w-full grow items-center justify-center gap-2 rounded-md bg-inherit p-3 text-sm font-medium hover:text-blue-300 md:flex-none md:justify-start md:p-2 md:px-3'>
 						<div className='hidden md:block'>
-							<a href='/'>Выйти</a>
+							<a className='block w-max' href='/'>
+								<PowerIcon className='w-6 md:hidden' />
+								Выйти
+							</a>
 						</div>
-					</button>
+					</button> */}
 				</form>
 			</div>
 		</div>
