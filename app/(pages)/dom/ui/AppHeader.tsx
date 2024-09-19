@@ -31,7 +31,15 @@ const AppHeader: React.FC = () => {
 		<header className='bg-sky-800 p-4'>
 			<div className='container mx-auto flex justify-between items-center'>
 				<div className='text-white text-xl font-bold'>
-					<a href='#'>MyLogo</a>
+					<a href='#'>
+						<Image
+							// src='/logo.png'
+							src='https://nextjs.org/icons/next.svg'
+							alt='Logo'
+							width={100}
+							height={100}
+						/>
+					</a>
 				</div>
 
 				<div className='relative' ref={dropdownRef}>
