@@ -33,13 +33,12 @@ const AppHeader: React.FC = () => {
 				<div className='text-white text-xl font-bold'>
 					<a href='#' className='flex items-center'>
 						<Image
-							src='/logo4.png'
+							src='/logo 7.png'
 							// src='https://nextjs.org/icons/next.svg'
 							alt='Logo'
 							width={100}
 							height={100}
 						/>
-						Finane
 					</a>
 				</div>
 
